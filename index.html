@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="left-bar">
+        <h2>MV Interiors</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#showcase">Showcase</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#designers">Designers</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <section id="home">
+            <p>Interior Design</p>
+        </section>
+        <section id="showcase">
+            <h1 class="section-title">Showcase.</h1>
+            <hr class="line-bar">
+            <div class="image-gallery">
+                <img src="images/showcase-01.jpg" alt="Image 1">
+                <img src="images/showcase-02.jpg" alt="Image 2">
+                <img src="images/showcase-03.jpg" alt="Image 3">
+                <img src="images/showcase-04.jpg" alt="Image 4">
+                <img src="images/showcase-05.jpg" alt="Image 5">
+                <img src="images/showcase-06.jpg" alt="Image 6">
+            </div>
+        </section>
+        <section id="services">
+            <h1 class="section-title">Services.</h1>
+            <hr class="line-bar">
+            <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At eos enim mollitia labore esse tempore nemo dicta maxime quam voluptate ea eaque, rerum quod velit, hic temporibus asperiores? Optio explicabo eaque temporibus corrupti placeat minima magnam veniam necessitatibus nulla. Nemo ipsa aspernatur expedita atque, iure aliquid. Natus illo optio iste hic iusto adipisci nesciunt dignissimos rerum repellendus possimus exercitationem dolor, iure ad, reprehenderit quos itaque voluptas ducimus. Voluptatem provident accusantium sapiente, perferendis ullam quam minima sit enim, repellendus possimus id doloribus soluta, error inventore repudiandae officiis accusamus voluptate totam odit eum incidunt! Dicta eveniet quo, quos dolore sit tenetur et.</p>
+        </section>
+        <section id="designers">
+            <h1 class="section-title">Designers.</h1>
+            <hr class="line-bar">
+            <p>The best team in the world</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At eos enim mollitia labore esse tempore nemo dicta maxime quam voluptate ea eaque, rerum quod velit, hic temporibus asperiores? Optio explicabo eaque temporibus corrupti placeat minima magnam veniam necessitatibus nulla. Nemo ipsa aspernatur expedita atque, iure aliquid. Natus illo optio iste hic iusto adipisci nesciunt dignissimos rerum repellendus possimus exercitationem dolor, iure ad, reprehenderit quos itaque voluptas ducimus. Voluptatem provident accusantium sapiente, perferendis ullam quam minima sit enim, repellendus possimus id doloribus soluta, error inventore repudiandae officiis accusamus voluptate totam odit eum incidunt! Dicta eveniet quo, quos dolore sit tenetur et.</p>
+            <p id="p-bold">Our designs are thoughtfully chosen:</p>
+            <div class="designer-cards">
+                <div class="card">
+                    <img src="images/person-01.jpg" alt="Designer 1">
+                    <h3>John Doe</h3>
+                    <h4>CEO & Founder</h4>
+                    <p>Expert in modern interiors and creative space utilization.</p>
+                </div>
+                <div class="card">
+                    <img src="images/person-02.jpg" alt="Designer 2">
+                    <h3>Jane Doe</h3>
+                    <h4>Designer</h4>
+                    <p>Specialist in classical and elegant interior designs.</p>
+                </div>
+                <div class="card">
+                    <img src="images/person-03.jpg" alt="Designer 3">
+                    <h3>Mike Ross</h3>
+                    <h4>Architect</h4>
+                    <p>Focuses on eco-friendly and sustainable design solutions.</p>
+                </div>
+            </div>
+        </section>
+        <section id="packages">
+            <h1 class="section-title">Packages.</h1>
+            <hr class="line-bar">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, eum mollitia perferendis repudiandae aperiam perspiciatis dicta rem tempore iure, dolorum harum laudantium ut in atque quas consequuntur maiores culpa at?</p>
+            <div class="package-row">
+                <div class="package">
+                    <div class="package-header basicRoom border-bottom"><h2>Basic Room</h2></div>
+                    <div class="row-feature border-bottom">Floor planning</div>
+                    <div class="row-feature border-bottom">10 hours support</div>
+                    <div class="row-feature border-bottom">Photography</div>
+                    <div class="row-feature border-bottom">20% furniture discount</div>
+                    <div class="row-feature border-bottom">Good deals</div>
+                    <div class="controls border-bottom">
+                        <button class="minus" data-room="basic">-</button>
+                        <span id="basic-price">$99</span>
+                        <button class="plus" data-room="basic">+</button>
+                        <p id="basic-room-count-text">1 room</p>
+                    </div>
+                    <div class="row border-bottom">
+                        <button id="signup1" class="signup" data-room="basic">Sign Up</button>
+                    </div>
+                    <div id="basic-thank-you">  
+                        <p class="thank-you">Thank you for choosing <span id="basic-room-count">1</span>
+                    </div>
+                </div>
+                <div class="package">
+                    <div class="package-header proRoom border-bottom"><h2>Pro Room</h2></div>
+                    <div class="row-feature border-bottom">Floor planning</div>
+                    <div class="row-feature border-bottom">50 hours support</div>
+                    <div class="row-feature border-bottom">Photography</div>
+                    <div class="row-feature border-bottom">50% furniture discount</div>
+                    <div class="row-feature border-bottom">Great deals</div>
+                    <div class="controls border-bottom">
+                        <button class="minus" data-room="pro">-</button>
+                        <span id="pro-price">$199</span>
+                        <button class="plus" data-room="pro">+</button>
+                        <p id="pro-room-count-text">1 room</p>
+                    </div>
+                    <div class="row border-bottom">
+                        <button id="signup2" class="signup" data-room="pro">Sign Up</button>
+                    </div>
+                    <div id="pro-thank-you"> 
+                        <p class="thank-you">Thank you for choosing <span id="pro-room-count">1</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="section-title">Contact.</h1>
+            <hr class="line-bar">
+            <p>Do you want us to style your home? Fill out the form and fill me in with the details:) We love meeting new people!</p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button id="send" type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

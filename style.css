@@ -1,0 +1,316 @@
+/* Base styles */
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Left sidebar styles */
+.left-bar {
+    width: 250px;
+    height: 100%;
+    background-color: #ea6036;
+    color: white;
+    padding-left: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: fixed;
+    overflow: hidden;
+}
+
+/* Header 2 styles */
+.left-bar h2 {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Unordered list styles */
+.left-bar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item styles */
+.left-bar ul li {
+    margin: 20px 0;
+}
+
+/* List item hover styles */
+.left-bar ul li:hover {
+    background-color: #e6876a;
+    color: white;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Anchor styles */
+.left-bar ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Main content styles */
+.main-content {
+    margin-left: 300px;
+    padding: 50px;
+    flex-grow: 1;
+    width: calc(100% - 250px);
+}
+
+/* Section title styles */
+.section-title {
+    color: #ea6036;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+/* Home paragraph styles */
+#home p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Horizontal rule styles */
+hr.line-bar {
+    border: 3px solid #ea6036;
+    width: 35px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 0px;
+}
+
+/* Image gallery styles */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Image styles */
+.image-gallery img {
+    width: calc(50% - 20px);
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Section specific styles */
+#showcase, #services, #designers, #packages, #contact {
+    margin-bottom: 50px;
+}
+
+/* Bold paragraph styles */
+#p-bold {
+    font-weight: bold;
+}
+
+/* Designer cards styles */
+.designer-cards {
+    display: flex;
+    gap: 20px;
+}
+
+/* Card styles */
+.card {
+    background-color: #e4e0e0;
+    border-radius: 5px;
+    text-align: left;
+    flex: 1;
+}
+
+/* Card image styles */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Card heading styles */
+.card h3 {
+    margin: 10px 0 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Card subheading styles */
+.card h4 {
+    color: #666;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Card paragraph styles */
+.card p {
+    color: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Package row styles */
+.package-row {
+    display: flex;
+    gap: 20px;
+}
+
+/* Package container styles */
+.package {
+    background-color: #e4e0e0;
+    padding: 0 0 0 0 ;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* hide thank you text */
+#basic-thank-you, #pro-thank-you {
+    display: none; 
+}
+
+/* Basic room styles */
+.basicRoom{
+    background-color: #666;
+    color: white;
+}
+
+/* Pro room styles */
+.proRoom{
+    background-color: #ea6036;
+    color: white;
+    }
+
+/* Package header styles */
+.package-header {
+    text-align: center;
+}
+
+/* Room details, controls, signup styles */
+.room-details,
+.controls,
+.signup{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Row styles */
+.row {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+/* Row feature styles */
+.row-feature {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Border bottom styles */
+.border-bottom {
+    border-bottom: 1px solid #c3c0c0;
+}
+
+/* Button styles */
+button {
+    width: fit-content;
+    margin: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Signup button styles */
+#signup1 {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: black;
+}
+
+
+/* Signup button styles */
+#signup2 {
+    padding: 10px 20px;
+    background-color: #ea6036;
+    color: white;
+}
+
+/* Plus and minus button styles */
+button.minus, button.plus {
+    background-color: #e4e0e0;
+    color: #000;
+    font-size: 25px;
+}
+
+/* Basic and pro price styles */
+#basic-price, #pro-price {
+    font-size: 25px;
+}
+
+/* Disabled button styles */
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Thank you paragraph styles */
+p.thank-you {
+    text-align: center;    
+    color: #666;
+    font-weight: bold;
+}
+
+
+/* Contact section styles */
+#contact {
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+
+/* Contact form styles */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* Contact form label styles */
+#contact-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Contact form input and textarea styles */
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Contact form button styles */
+#contact-form button {
+    font-weight: bold;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #ea6036;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Contact form button hover styles */
+#contact-form button:hover {
+    background-color: #e6876a;
+}
