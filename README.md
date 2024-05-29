@@ -1,4 +1,4 @@
-# Interior Design Webpage Project
+# Assignment1: Interior Design Webpage Project
 
 ## Description
 
