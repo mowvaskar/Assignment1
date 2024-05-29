@@ -23,8 +23,5 @@ The project is a static webpage and can be accessed through any web browser. No 
 
 As this project is for an assignment, contributions are not open to external contributors. However, feedback and suggestions are welcome.
 
-## License
-
-This project is licensed under the [insert license type] License. See the LICENSE file for more details.
 
 
